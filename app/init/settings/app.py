@@ -1,5 +1,5 @@
 from typing import Any, Dict
-from app.core.settings.base import BaseAppSettings
+from app.init.settings.base import BaseAppSettings
 
 
 class AppSettings(BaseAppSettings):

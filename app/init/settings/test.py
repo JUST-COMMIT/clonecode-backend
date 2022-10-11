@@ -1,4 +1,4 @@
-from app.core.settings.app import AppSettings
+from app.init.settings.app import AppSettings
 
 
 class TestAppSettings(AppSettings):

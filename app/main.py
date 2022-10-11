@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-from app.core.config import get_app_settings
-from app.core.events import create_start_app_handler, create_stop_app_handler
+from app.init.config import get_app_settings
+from app.init.events import create_start_app_handler, create_stop_app_handler
 
 
 def get_application() -> FastAPI:
