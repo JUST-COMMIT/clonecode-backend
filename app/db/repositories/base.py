@@ -1,10 +1,6 @@
-from sqlalchemy.pool import Pool
+from sqlalchemy.orm import Session
 
 
 class BaseRepository():
-    def __init__(self, connection: Pool) -> None:
-        self._connection = connection
-    
-    @property
-    def connection(self) -> Pool:
-        return self._connection
+    def __init__(self, session: Session) -> None:
+        self._session = session
