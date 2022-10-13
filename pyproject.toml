@@ -1,18 +1,18 @@
 [tool.poetry]
-name = "clonecode-backend"
+name = "doa-clonecode-asana"
 version = "0.1.0"
-description = "Asana backend clonecode project"
+description = ""
 authors = ["Your Name <you@example.com>"]
-readme = "README.md"
-packages = [{include = "clonecode_backend"}]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.9"
 fastapi = "^0.85.0"
 SQLAlchemy = "^1.4.41"
-aiosql = "^6.5"
+uvicorn = "^0.18.3"
+mysqlclient = "^2.1.1"
 
+[tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
