@@ -15,4 +15,4 @@
   - Example: `mysql://user:password@127.0.0.1:3306/clonecode`
 
 ### Running the server
-- Run `poetry run uvicorn clonecode.main:app --reload` to start the server
+- Run `poetry run uvicorn src.app.application:app --reload` to start the server

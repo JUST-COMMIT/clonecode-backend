@@ -1,6 +1,6 @@
-from sqlalchemy import Column, Integer, String, DateTime, func
+from sqlalchemy import Column, Integer, String
 
-from app.models import Base
+from src.app.models import Base
 
 
 class TblProjects(Base):
